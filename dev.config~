@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<packages>
+  <package id="7zip.install" version="9.38" />
+  <package id="autohotkey.portable" version="1.1.22.07" />
+  <package id="chocolatey" version="0.9.9.10" />
+  <package id="ChocolateyGUI" version="0.13.1" />
+  <package id="ConEmu" version="15.9.13.0" />
+  <package id="DotNet4.5.1" version="4.5.1.20140606" />
+  <package id="git" version="2.6.0" />
+  <package id="git.install" version="2.6.0" />
+  <package id="gitpad" version="1.2" />
+  <package id="jdk8" version="8.0.6001" />
+  <package id="jre8" version="8.0.60.20150902" />
+  <package id="lockhunter" version="3.1.1" />
+  <package id="msysgit" version="1.7.10.20120526" />
+  <package id="notepadplusplus.install" version="6.8.3" />
+  <package id="NuGet.CommandLine" version="2.8.6" />
+  <package id="paint.net" version="4.0.5" />
+  <package id="PowerShell" version="4.0.20141001" />
+  <package id="python" version="3.4.3.20150501" />
+  <package id="python2" version="2.7.10" />
+  <package id="ruby" version="2.1.6" />
+  <package id="rubygems" version="2.4.1.0" />
+  <package id="scriptcs" version="0.15.0" />
+  <package id="SourceTree" version="1.6.14" />
+  <package id="sysinternals" version="2015.07.20" />
+  <package id="vim" version="7.4.827" />
+  <package id="VirtualCloneDrive" version="5.4.7.0" />
+  <package id="VisualStudioCode" version="0.3.0.0" />
+  <package id="windirstat" version="1.1.2.20140225" />
+  <package id="winmerge" version="2.14.0" />
+  <package id="WinPcap" version="4.1.3.20141005" />
+  <package id="wireshark" version="1.12.7" />
+</packages>
