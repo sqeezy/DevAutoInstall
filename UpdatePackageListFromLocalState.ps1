@@ -1,0 +1,1 @@
+﻿$packagesList = Get-ChildItem (Join-Path $ENV:chocolateyinstall 'lib')| Select-Object -Property Name
