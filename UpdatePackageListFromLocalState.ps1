@@ -7,14 +7,14 @@ $installedPackagesIds = Get-ChildItem (Join-Path $ENV:chocolateyinstall 'lib')| 
 [xml]$packageFile = Get-Content $packageFilePath
 
 #Determine which packages are on the system but not in the file
-$packageFileIds = $packageFile.packages.ChildNodes | ForEach {$_."Name"}
+$packageFileIds = $packageFile.packages.ChildNodes | ForEach {$_."id"}
 $toAdd = $installedPackagesIds | where {!$packageFileIds.Contains($_)}
 
 #Build xml elements
 foreach($newPackageName in $toAdd)
 {
     $xmlElement = $packageFile.CreateElement("package")
-    $xmlElement.SetAttribute("Name",$newPackageName)
+    $xmlElement.SetAttribute("id",$newPackageName)
     $packageFile.packages.PrependChild($xmlElement)
 }
 
